@@ -4,16 +4,55 @@
 
 @theme {
   --color-background: #ffffff;
-}
 
-[data-theme="dark"] {
-  --color-background: oklch(27.8% 0.033 256.848);
-}
+  /* Colors */
+  --color-grey-200: #d8d8d8;
 
-@layer base {
-  body {
-    transition:
-      background-color 300ms ease,
-      color 300ms ease;
-  }
+  --color-blue-50: #f6faff;
+  --color-blue-100: #e5eaf1;
+
+  /* Typography */
+
+  --font-josefin: "Josefin Sans", sans-serif;
+  --font-alata: "Alata", sans-serif;
+
+  --text-preset-1: 72px;
+  --text-preset-1--line-height: 100%;
+  --text-preset-1--letter-spacing: 0px;
+  --text-preset-1--font-family: "Josefin Sans";
+
+  --text-preset-2: 48px;
+  --text-preset-2--line-height: 100%;
+  --text-preset-2--letter-spacing: 0px;
+
+  --text-preset-3: 40px;
+  --text-preset-3--line-height: 100%;
+  --text-preset-3--letter-spacing: 0px;
+
+  --text-preset-4: 32px;
+  --text-preset-4--line-height: 100%;
+  --text-preset-4--letter-spacing: 0px;
+
+  --text-preset-5: 24px;
+  --text-preset-5--line-height: 100%;
+  --text-preset-5--letter-spacing: 0px;
+
+  --text-preset-6: 15px;
+  --text-preset-6--line-height: 165%;
+  --text-preset-6--letter-spacing: 0px;
+
+  --text-preset-7: 14px;
+  --text-preset-7--line-height: 100%;
+  --text-preset-7--letter-spacing: 5px;
+
+  /* Spacing */
+  --spacing-0: 0px;
+  --spacing-100: 8px;
+  --spacing-200: 16px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
 }

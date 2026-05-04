@@ -5,6 +5,7 @@ import { fileURLToPath } from "url";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
+  base: "/loopstudios-landing-page-frontend-mentor/",
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),

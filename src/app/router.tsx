@@ -1,11 +1,16 @@
 import { createBrowserRouter } from "react-router";
 import AppLayout from "@/app/layouts/AppLayout";
-import App from "@/App";
+import { landingRoutes } from "@/features/landing/routes";
 
-export const router = createBrowserRouter([
+export const router = createBrowserRouter(
+  [
+    {
+      path: "/",
+      element: <AppLayout />,
+      children: landingRoutes,
+    },
+  ],
   {
-    path: "/",
-    element: <AppLayout />,
-    children: [{ index: true, element: <App /> }],
+    basename: "/loopstudios-landing-page-frontend-mentor",
   },
-]);
+);
