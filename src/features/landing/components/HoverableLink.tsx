@@ -3,7 +3,7 @@ interface Props {
   to: string;
 }
 
-export function HeaderLink({ title, to }: Props) {
+export function HoverableLink({ title, to }: Props) {
   return (
     <li>
       <a
