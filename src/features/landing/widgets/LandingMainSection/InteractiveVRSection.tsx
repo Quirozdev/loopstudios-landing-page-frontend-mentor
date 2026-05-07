@@ -1,6 +1,6 @@
 export function InteractiveVRSection() {
   return (
-    <section className="relative flex flex-col gap-12 xl:flex-row xl:gap-0">
+    <section className="relative flex flex-col gap-12 pt-24 xl:flex-row xl:gap-0 xl:pt-40">
       <picture>
         <source
           media="(min-width: 768px)"

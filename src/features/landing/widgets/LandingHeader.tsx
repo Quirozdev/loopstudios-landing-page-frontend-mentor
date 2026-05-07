@@ -3,7 +3,7 @@ import { BurgerMenu } from "@/features/landing/widgets/BurgerMenu";
 
 export function LandingHeader() {
   return (
-    <header className="w-full px-6 pt-10 md:pt-16 @3xl:px-20">
+    <header className="z-30 w-full px-6 pt-10 md:pt-16 @3xl:px-20">
       <nav className="flex items-center justify-between">
         <a href="#">
           <img src={`${import.meta.env.BASE_URL}/images/logo.svg`} alt="Logo" />

@@ -3,7 +3,7 @@ import { OurCreationsSection } from "@/features/landing/widgets/LandingMainSecti
 
 export function LandingMainSection() {
   return (
-    <main className="mx-auto flex w-full max-w-360 flex-col gap-24 px-6 xl:gap-40 @3xl:px-20">
+    <main className="mx-auto flex w-full max-w-360 flex-col gap-24 bg-white px-6 xl:gap-40 @3xl:px-20">
       <InteractiveVRSection />
       <OurCreationsSection />
     </main>
