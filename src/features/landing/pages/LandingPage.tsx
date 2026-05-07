@@ -1,3 +1,4 @@
+import { LandingFooter } from "@/features/landing/widgets/LandingFooter";
 import { LandingHero } from "@/features/landing/widgets/LandingHero";
 import { LandingMainSection } from "@/features/landing/widgets/LandingMainSection";
 
@@ -6,6 +7,7 @@ export function LandingPage() {
     <div className="@container flex flex-col bg-black">
       <LandingHero />
       <LandingMainSection />
+      <LandingFooter />
     </div>
   );
 }
