@@ -40,7 +40,7 @@ export function BurgerMenu({ className, ...props }: Props) {
       </button>
       <div
         className={clsx(
-          "fixed top-0 right-0 z-10 flex h-screen w-screen flex-col gap-y-48 bg-black px-6 py-10 transition-transform duration-700 ease-in-out md:gap-y-32 md:px-20 md:py-16",
+          "fixed top-0 right-0 left-0 z-10 flex h-screen w-screen flex-col gap-y-48 bg-black px-6 py-10 transition-transform duration-700 ease-in-out md:gap-y-32 md:px-20 md:py-16",
           isMenuOpen ? "translate-x-0" : "translate-x-full",
         )}
       >
